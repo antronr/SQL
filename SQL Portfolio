@@ -1,1 +1,11 @@
-
+Select*
+From superstore
+order by price; 
+select avg(price) as average_price 
+from superstore;
+select max(price) as max_price_Kitchen_Supplies
+from superstore
+where category = 'Kitchen Supplies';
+Select stock_quantity as air_purifier_stock
+from superstore
+where item_name = 'Air Purifier';
